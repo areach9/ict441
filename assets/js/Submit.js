@@ -9,7 +9,7 @@ const enquiryInput = form.querySelector('#enquiry');
 
 function Validate()
 {
-    
+    //Get input content
     const firstNameValue = firstNameInput.value.trim();
     const lastNameValue = lastNameInput.value.trim();
     const phoneValue = phoneInput.value.trim();
